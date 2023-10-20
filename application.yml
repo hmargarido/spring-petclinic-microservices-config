@@ -81,7 +81,7 @@ spring:
     activate:
       on-profile: mysql
   datasource:
-    url: ${MYSQL_PATH}
+    URL: "jdbc:mysql://${MYSQL_PATH}"
     username: ${MYSQL_USER}
     password: ${MYSQL_PASSWORD}
   sql:
